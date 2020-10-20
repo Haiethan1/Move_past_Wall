@@ -1,0 +1,15 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="launcher" type="main.py" name="Launcher"  output="screen">
+    </node>
+
+    <node pkg="checker" type="main.py" name="Checker"  output="screen">
+    </node>
+
+    <node pkg="move" type="main.py" name="move"  output="screen">
+    </node>
+
+    <node pkg="move_wall" type="move.py" name="move_wall" output="screen">
+    </node>
+
+</launch>
